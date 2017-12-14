@@ -122,6 +122,14 @@ h4 {
     margin-bottom: 30px;
 }
 
+#logo {
+    margin-top: -5px;
+}
+
+.outline {
+    text-shadow: 2px 2px 2px black!important; 
+}
+
 .slideanim {visibility:hidden;}
 .slide {
     /* The name of the animation */
@@ -154,8 +162,4 @@ h4 {
         opacity: 1;
         -webkit-transform: translateY(0%);
     }
-}
-
-#logo {
-    margin-top: -5px;
 }
