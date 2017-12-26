@@ -24,8 +24,12 @@
     <!-- Scripts -->
     <script src="js/smoothscroll.js"></script>
     <script src="js/slidein.js"></script>
-  </head>
 
+    <!-- MailChimps -->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c48b626738bb8e46cc8fb85d6/9d0c88b332994b51494d73452.js");</script>
+
+  </head>
+      
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -51,16 +55,18 @@
 
     <!-- Header -->
     <div class="jumbotron text-center">
-      <h1 class="outline"><strong>Ethical Investments Club</strong></h1> 
-      <form class="form-inline">
-        <div class="input-group">
-          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-          <div class="input-group-btn">
-            <button type="button" class="btn btn-danger">Subscribe</button></a>
+      <h1 class="outline"><strong>Ethical Investments Club</strong></h1>
+      <p class="outline"><strong>We specialize in investing money in ethical companies</strong></p>  
+      <div id="mc_embed_signup">
+        <form class="form-inline validate" action="https://club.us17.list-manage.com/subscribe/post?u=c48b626738bb8e46cc8fb85d6&amp;id=5c8dba0e2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div class="input-group" id="mc_embed_signup_scroll">
+            <input type="email" class="form-control" value="" size="50" name="EMAIL" id="mce-EMAIL" placeholder="Email Address" required>
+            <div class="input-group-btn">
+              <button type="button submit" id="mc-embedded-subscribe" class="btn btn-danger">Subscribe</button>
+            </div>
           </div>
-        </div>
-      </form>
-      <p class="outline"><strong>We specialize in investing money in ethical companies</strong></p> 
+        </form>
+      </div>
     </div>
 
     <!-- About Section -->
@@ -251,29 +257,19 @@
     <div id="contact" class="container-fluid bg-grey slideanim">
       <h2 class="text-center">CONTACT</h2>
       <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-offset-2 col-sm-4">
           <p>Contact us and we'll get back to you within 24 hours.</p>
           <p><span class="glyphicon glyphicon-map-marker"></span> Ann Arbor, MI, US</p>
           <p><span class="glyphicon glyphicon-phone"></span> +1 7349721145</p>
           <p><span class="glyphicon glyphicon-envelope"></span> boardeic@gmail.com</p> 
         </div>
 
-        <div class="col-sm-7">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-            </div>
-          </div>
-
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-          <div class="row">
-            <div class="col-sm-12 form-group">
-              <button class="btn btn-default pull-right" type="submit">Send</button>
-            </div>
-          </div> 
+        <div class="col-sm-4">
+          <p>Subscribe to our mailing list</p>
+          <form class="form validate" action="https://club.us17.list-manage.com/subscribe/post?u=c48b626738bb8e46cc8fb85d6&amp;id=5c8dba0e2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate> 
+            <input type="email" class="form-control" value="" size="50" name="EMAIL" id="mce-EMAIL" placeholder="Email Address" required>
+            <button type="button submit" id="mc-embedded-subscribe" class="btn btn-danger" style="margin-top: 15px;">Subscribe</button>
+          </form>
         </div>
       </div>
     </div>
