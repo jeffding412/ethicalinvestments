@@ -6,6 +6,19 @@
     font-family: Montserrat, sans-serif;
 }
 
+.staff strong {
+    color: black;
+}
+
+h1.outline {
+    font-size: 100px;
+}
+@media screen and (max-width: 768px) {
+    h1.outline {
+        font-size: 50px;
+    }
+}
+
 #board {
     font-size: 24px;
 }
@@ -25,7 +38,6 @@ body {
 }
 
 .logo {
-
     color: #00274c;
     font-size: 200px;
 }
