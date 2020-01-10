@@ -101,12 +101,26 @@ body {
     border-radius: 0;
     font-family: Montserrat, sans-serif;
 }
+.university {
+    height: 100%;
+    padding: 15px;
+}
 
-.navbar li a, .navbar .navbar-brand {
+.university-button {
+    letter-spacing: 4px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.navbar li a, button, .navbar .navbar-brand {
     color: #ffcb05 !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover, button:hover, .university:hover, .navbar-nav li.active a {
     color: #00274c !important;
     background-color: #ffcb05 !important;
 }
